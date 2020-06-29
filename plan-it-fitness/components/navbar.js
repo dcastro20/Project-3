@@ -1,11 +1,16 @@
 const Navbar = () => (
-    <ul>
-        <li><Link href="/"><a>Home</a></Link></li>
-        <li><Link href="/signup"><a>Signup</a></Link></li>
-    </ul>
+  <ul>
+    <li>
+      <Navbar href="/">
+        <a>Home</a>
+      </Navbar>
+    </li>
+    <li>
+      <Navbar href="/signup">
+        <a>Signup</a>
+      </Navbar>
+    </li>
+  </ul>
 );
-
-
-
 
 export default Navbar;
